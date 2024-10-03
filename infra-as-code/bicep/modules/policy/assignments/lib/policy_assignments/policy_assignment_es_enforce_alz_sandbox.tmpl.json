@@ -4,7 +4,7 @@
   "apiVersion": "2024-04-01",
   "properties": {
     "description": "This initiative will help enforce and govern subscriptions that are placed within the Sandobx Management Group. See https://aka.ms/alz/policies for more information.",
-    "displayName": "Enforce ALZ Sandbox Guardrails",
+    "displayName": "CK - Enforce ALZ Sandbox Guardrails",
     "notScopes": [],
     "parameters": {
       "listOfResourceTypesNotAllowed": {
