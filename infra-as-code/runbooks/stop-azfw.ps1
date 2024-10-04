@@ -55,11 +55,16 @@ else {
 
 $azfw = Get-AzFirewall -Name $azFwName -ResourceGroupName $resourceGroupName
 
-if($azfw.ProvisioningState -eq "Succeeded") {
+if($azfw.IpConfigurations.Count -gt 0) {
     Write-Output "Stopping Azure Firewall $azFwName"
     $azfw.Deallocate()
     Set-AzFirewall -AzureFirewall $azfw
 } 
+# if($azfw.ProvisioningState -eq "Succeeded") {
+#     Write-Output "Stopping Azure Firewall $azFwName"
+#     $azfw.Deallocate()
+#     Set-AzFirewall -AzureFirewall $azfw
+# } 
 else {
     Write-Output "$azFwName not running...terminating script"
 }
