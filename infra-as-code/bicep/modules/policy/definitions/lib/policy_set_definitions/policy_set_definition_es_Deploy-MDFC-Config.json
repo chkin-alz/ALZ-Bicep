@@ -32,7 +32,7 @@
           "Medium",
           "Low"
         ],
-        "defaultValue": "High",
+        "defaultValue": "Medium",
         "metadata": {
           "displayName": "Minimal severity",
           "description": "Defines the minimal alert severity which will be sent as email notifications"

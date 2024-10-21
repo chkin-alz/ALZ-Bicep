@@ -40,7 +40,7 @@
       },
       "minimalSeverity": {
         "type": "String",
-        "defaultValue": "High",
+        "defaultValue": "Medium",
         "allowedValues": [
           "High",
           "Medium",
