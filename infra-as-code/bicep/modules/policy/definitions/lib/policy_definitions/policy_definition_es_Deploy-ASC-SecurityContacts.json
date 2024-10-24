@@ -127,7 +127,8 @@
                       "notificationsByRole": {
                         "state": "On",
                         "roles": [
-                          "Owner"
+                          "Owner",
+                          "ServiceAdmin"
                         ]
                       },
                       "notificationsSources": [
