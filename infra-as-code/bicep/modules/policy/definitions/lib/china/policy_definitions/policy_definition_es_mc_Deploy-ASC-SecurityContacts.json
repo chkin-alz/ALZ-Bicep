@@ -108,7 +108,8 @@
                       "notificationsByRole": {
                         "state": "On",
                         "roles": [
-                          "Owner"
+                          "Owner",
+                          "ServiceAdmin"
                         ]
                       },
                       "alertNotifications": {
